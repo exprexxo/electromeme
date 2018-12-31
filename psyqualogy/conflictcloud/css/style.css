@@ -1,0 +1,21 @@
+body {
+  font-family: Monospace;
+  background-color: #;
+  margin: 0px;
+  overflow: hidden;
+}
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+.cloudLayer {
+  height: 256px;
+  left: 50%;
+  margin-left: -128px;
+  margin-top: -128px;
+  position: absolute;
+  top: 50%;
+  width: 256px;
+}
