@@ -8,7 +8,7 @@ html, body {
   flex-wrap:wrap;
   font-family:'Comic Sans', cursive;
   padding:1vmin;
-   font-size: large;
+   font-size: 3vw;
      font-weight: bold;
 }
 .indented { padding-left: 50pt; padding-right: 50pt; } 
@@ -20,7 +20,7 @@ html, body {
   box-shadow:0 6px 6px -6px #000;
   display:inline-block;
   flex:1 1;
-  height:200px;
+  height:20vw;
   margin:1vmin;
   overflow:hidden;
   position:relative;
@@ -85,31 +85,31 @@ html, body {
 }
 
 .panel:nth-child(1) {
-  flex-basis: 400px;
+  flex-basis: 40vw;
 }
 .panel:nth-child(2) {
-  flex-basis: 200px;
+  flex-basis: 20vw;
 }
 .panel:nth-child(3) {
-  flex-basis: 200px;
+  flex-basis: 20vw;
 }
 .panel:nth-child(4) {
-  flex-basis: 200px;
+  flex-basis: 20vw;
 }
 .panel:nth-child(5) {
-  flex-basis: 200px;
+  flex-basis: 20vw;
 }
 .panel:nth-child(6) {
-  flex-basis: 200px;
+  flex-basis: 200vw;
 }
 .panel:nth-child(7) {
-  flex-basis: 200px;
+  flex-basis: 20vw;
 }
 .panel:nth-child(8) {
-  flex-basis: 300px;
+  flex-basis: 30vw;
 }
 .panel:nth-child(9) {
-  flex-basis: 200px;
+  flex-basis: 20vw;
 }
 
 /* background colours */
