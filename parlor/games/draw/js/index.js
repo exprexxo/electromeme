@@ -23,7 +23,24 @@ var db = firebase.firestore();
 db.settings({
   timestampsInSnapshots: true });
 
+  function getUrlVars() {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+          vars[key] = value;
+      });
+      return vars;
+  }
+  function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
 
+
+var mytext = getUrlParam('players','Empty');
+console.log(players);
 
 site = "https://google.com";
 var listHands = hands.map(function (hhands, i) {return (
