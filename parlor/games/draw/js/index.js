@@ -40,7 +40,7 @@ db.settings({
 
 
 var mytext = getUrlParam('players','Empty');
-console.log(players);
+console.log('daPlayers are',players);
 
 site = "https://google.com";
 var listHands = hands.map(function (hhands, i) {return (
