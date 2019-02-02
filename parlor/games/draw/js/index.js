@@ -55,7 +55,7 @@ play();
 function play() {
   db.
   collection("tables").
-  doc("dddddtable").
+  doc("JoinTesttable").
   onSnapshot(function (doc) {
     console.log("Current data: ", doc.data());
     var cow = doc.data().deck; //doc.data()
