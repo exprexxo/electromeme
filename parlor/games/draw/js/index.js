@@ -50,7 +50,7 @@ var listHands = hands.map(function (hhands, i) {return (
 
 
 
-play();
+//play();
 
 function play() {
   db.
